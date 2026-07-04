@@ -6,7 +6,7 @@ Availability Zones for high availability.
 
 ## Architecture
 
-![Architecture Diagram](diagrams/architecture-diagram.png)
+![Architecture Diagram](/architecture-diagram.png)
 
 Requests are routed based on URL path:
 
@@ -101,6 +101,5 @@ correctly evaluates path conditions and routes to the right target group.
 │   ├── instance-a-homepage.sh
 │   ├── instance-b-images.sh
 │   └── instance-c-register.sh
-└── docs/
-    └── teardown-checklist.md
+
 ```
